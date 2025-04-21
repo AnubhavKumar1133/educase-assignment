@@ -1,5 +1,5 @@
 {
-  "name": "chapter3",
+  "name": "educase assignment",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "Dockerized Full stack workflow management appplication that uses NodeJS backend, a PostgreSQL database, Prisma ORM, and JWT authentication.",
+  "description": "educase assigment",
   "dependencies": {
     "@prisma/client": "^6.6.0",
     "bcryptjs": "^3.0.2",
