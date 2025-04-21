@@ -12,6 +12,7 @@ RUN npm install
 
 # Copy the rest of the application code into the container at /app
 COPY . .
+RUN npx prisma generate
 
 # Expose port that the app runs on
 EXPOSE 5000
