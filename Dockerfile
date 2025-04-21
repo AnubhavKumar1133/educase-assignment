@@ -5,7 +5,7 @@ FROM node:22-alpine
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY package*.json .
+COPY package*.json ./
 
 # Install the dependencies
 RUN npm install
